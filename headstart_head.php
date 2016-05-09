@@ -7,6 +7,6 @@
         <script type="text/javascript" src="search_plos/vis/lib/bootstrap.js"></script>
         <script type="text/javascript" src="search_plos/vis/lib/bootstrap-multiselect.js"></script>
         <link rel="stylesheet" href="search_plos/vis/lib/bootstrap-multiselect.css">
-        <link rel="stylesheet" href="search_plos/options.css">
+        <link rel="stylesheet" href="options.css">
         
-        <script type="text/javascript" src="search_plos/search_options.js"></script>
+        <script type="text/javascript" src="search_options.js"></script>

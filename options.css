@@ -1,0 +1,217 @@
+* {
+    box-sizing: content-box;
+}
+
+.text-field {
+    border: 5px solid #2D3E52;
+    height: 30px;
+    padding-left: 5px;
+    max-width: 558px;
+}
+
+.time_input {
+    border: 3px solid #2D3E52;
+    height: 18px;
+    padding-left: 5px;
+}
+
+
+.dropdown-menu > .active > a {
+    background-color: #e55137;
+}
+
+.dropdown-menu {
+    z-index: auto;
+}
+
+button {
+    background-color: #2D3E52;
+    color: white;
+}
+
+.submit-btn {
+    margin-left: -5px;
+    margin-top: -3px;
+    background-color: #2D3E52;
+    color: white;
+    font-weight: bold;
+    width: 55px;
+    height: 40px;
+    font-size: 28px;
+    border-radius: 0px;
+    padding: 0px 0px;
+    vertical-align: middle;
+    border-width: 0px 0px 0px 0px; 
+    border-style: solid;
+    border-color: #2D3E52;
+}
+
+.submit-btn:hover {
+    background-color: #e55137;
+    color: white;
+}
+
+.divity {
+    display: inline-block;
+}
+
+.frontend-hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+label {
+    display: inline;
+    font-weight: normal;
+}
+
+#filter-container {
+    margin-top: 15px;
+}
+
+#filter-btn {
+    margin-bottom: 23px;
+    margin-right: 0px;
+    margin-top: 5px;
+}
+
+.filter-btn-highlight, .open > .dropdown-toggle.btn-default, .open > .dropdown-toggle.btn-default:hover, .open > .dropdown-toggle.btn-default:active,
+.btn-default:active, .btn-default:hover, .btn-default:focus {
+    background-color: #e55137 !important;
+    color: white !important;
+}
+
+#filters {
+    margin-bottom: 10px;
+}
+
+#stats {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dropdown {
+    padding: 5px;
+}
+
+.frontend-btn {
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 9px 10px 9px 10px;
+    text-decoration: none;
+    border: solid #636363 0px;
+    background-color: #2D3E52;
+}
+
+.frontend-btn:hover {
+    background: #e55137;
+    color: white;
+    /*background-image: -webkit-linear-gradient(top, #f5f2f5, #c9c9c9);
+    background-image: -moz-linear-gradient(top, #f5f2f5, #c9c9c9);
+    background-image: -ms-linear-gradient(top, #f5f2f5, #c9c9c9);
+    background-image: -o-linear-gradient(top, #f5f2f5, #c9c9c9);
+    background-image: linear-gradient(to bottom, #f5f2f5, #c9c9c9);*/
+    text-decoration: none;
+}
+
+.frontend-btn, .frontend-btn:link, .frontend-btn:hover, .frontend-btn:visited, .frontend-btn:active {
+    text-decoration: none;
+    color: white;
+}
+
+.div {
+    display: block; 
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+#input-container {
+    margin-bottom: 30px;
+    margin-left: 92px;
+}
+
+label {
+    display: inline-block;
+    width: 45px;
+}
+
+.caret {
+    border-left: 1px solid #AAA;
+    border-radius: 0px 4px 4px 0px;
+    background: #CCC linear-gradient(to top, #CCC 0%, #EEE 60%) repeat scroll 0% 0%;
+}
+
+.multiselect {
+    background-color: #fff;
+    /*background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(0.5, #fff));
+    background-image: -webkit-linear-gradient(center bottom, #eee 0%, #fff 50%);
+    background-image: -moz-linear-gradient(center bottom, #eee 0%, #fff 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#eeeeee', GradientType = 0);
+    background-image: linear-gradient(to top, #eee 0%, #fff 50%);*/
+
+    height: 18px
+}
+
+.btn-group {
+    margin-left: 28px;
+}
+
+.btn {
+    background-color: #2D3E52;
+    color: white;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+    background-color: #e55137;
+    color: white;
+}
+
+.btn-group.open {
+   background-color: #e55137;
+    color: white; 
+}
+
+#download {
+    margin-top: 510px;
+    margin-left: 30px;
+}
+
+.input_items {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 700px) {
+
+    .text-field {
+        border: 5px solid #2D3E52;
+        height: 30px;
+        padding-left: 5px;
+        max-width: 60%;
+    }
+    
+    .btn-group {
+    margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .submit-btn {
+        font-size: 18px;
+    }
+    
+    #filter-container {
+        display:none;
+    }
+}
