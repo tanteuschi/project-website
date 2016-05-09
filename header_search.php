@@ -14,7 +14,7 @@
                     <li><a href="index.php#discover">Discover Maps</a></li>
                     <li><a href="#contact">Get in touch</a></li>
                     <li><a href="team.php#team">Team</a></li>
-                    <li><a href="">Newsletter</a></li>
+                    <!--<li><a href="">Newsletter</a></li>-->
                 </ul>
 
             </div>
@@ -47,9 +47,9 @@
                     <a href="#contact">Get in touch</a>
                 </li>
                 
-                <li>
+                <!--<li>
                     <a class="newsletter" href="">Newsletter</a>
-                </li>
+                </li>-->
                 
             </ul>
 
