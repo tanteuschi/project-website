@@ -9,13 +9,13 @@
         
         <?php include ("header_search.php"); ?>
         
-        <div id="visualization" style="padding-top:160px; background-color:white;"></div>
+        <div id="visualization" style="padding-top:70px; background-color:white;"></div>
         <script>
                 
-                var height = ($(document).height() < 675)?(675):($(document).height() - 158);
+                var height = ($(document).height() < 675)?(675):($(document).height() - 68);
                 var width =  ($(document).width() < 675)?(675):($(document).width())
                 
-                var div_height = height + 80;
+                var div_height = height;
                 $("#visualization").css("height", div_height + "px");
                 
                 var myHeadstart = new Headstart(

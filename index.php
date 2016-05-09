@@ -65,20 +65,6 @@
         <?php include("discover.php") ?>
         
         <script type="text/javascript">
-            $("#submit-btn").click(function () {
-                document.forms['searchform'].submit();
-            })
-
-            $(window).bind("pageshow", function () {
-                $(".submit-btn").attr("disabled", false);
-            });
-
-            $("#searchform").validate({
-                submitHandler: function (form) {
-                    $(".submit-btn").attr("disabled", true);
-                    form.submit();
-                }
-            });
 
             $(document).ready(function () {
                 var search_options = SearchOptions;
