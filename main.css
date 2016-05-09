@@ -1,0 +1,1009 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #cacfd3;
+}
+
+body {
+    color: black;
+    font-family: 'Open Sans', cursive;
+    font-weight: 300;
+    margin: 0px auto 0;
+    width: 100%;
+    max-width: 1600px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    clear:both;
+    position: relative;
+    top:0px;
+    /*     -ms-word-break: break-all;*/
+    word-break: break-word;
+    word-wrap: break-word; 
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    -o-hyphens: auto;
+}
+
+img {
+    vertical-align: middle;
+    max-width:100%;
+}
+
+ul {
+    list-style:none;
+} 
+
+a {
+    color: #2d3e52;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.background1 a {
+    text-decoration: underline;
+    color:#2d3e52;
+}
+
+a:active {
+    text-decoration: none;
+    color:#2d3e52;
+}
+
+a:focus, a:hover {
+    color: #2d3e52;
+    text-decoration: none;
+}
+
+/*NAVIGATION*/
+header {
+    padding: 20px 0px 15px;
+    position: fixed;
+    width: 100%;
+    max-width:1600px;
+    background-color: white;
+    text-align: left;
+    z-index: 10;
+    border-bottom: 4px solid #cacfd3;
+    color: #2d3e52;
+}
+
+header a {
+    color:#2d3e52;
+}
+
+header #logo a:hover {
+    text-decoration: none;
+}
+
+.nav_top {
+    display: inline-block;
+    text-align: left;
+    color:white;
+    background-color: transparent;
+    font-size: 20px;
+    line-height: 120%;
+    margin: 0px 0px 0px 50px !important;
+}
+
+
+
+.description {
+    display: inline-block;
+    padding: 0px 0px 20px 50px;
+}
+
+.description li:first-child {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: Open Sans;
+    font-weight: 800;
+}
+
+.description li:last-child {
+    line-height: 120%;
+    font-size: 20px;
+}
+
+.nav_top li:last-child {
+    display: inline;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.nav_top li {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: bottom;
+}
+
+.nav_top a:hover, .nav_top a:active  {
+    color: #2d3e52;
+    /*font-weight:800;*/
+    text-decoration: underline;
+}
+
+.nav_bottom a:hover, .nav_bottom a:active, .nav_bottom a:focus {
+    color: white;
+    text-decoration: none;
+    font-weight:800;
+}
+
+.nav_top a.newsletter:hover, .nav_top a.newsletter:active {
+    border: 2px solid #e55137; 
+    color:white; 
+    background-color: #e55137;
+    font-weight:300;
+    text-decoration: none;
+}
+
+.newsletter {
+    border: 2px solid #e55137;
+    color:#e55137; 
+    background-color: white;
+    padding:5px;
+}
+
+/*Header for Vis*/
+
+.searchheader {
+    padding: 10px 0px;
+}
+
+.searchheader .description {
+    display: inline-block;
+    padding: 0px 0px 0px 50px;
+}
+
+.searchheader .nav_top {
+    font-size: 14px;
+    margin: 0px;
+}
+
+.searchheader .description li:last-child {
+    font-size: 14px;
+}
+
+.searchheader .description li:first-child {
+    font-size: 20px;
+}
+
+.hoverlink:hover {
+    opacity:0.3;
+}
+
+.visualize {
+    text-align: left; 
+    padding: 0px;
+    font-size:46px; 
+    color: #2d3e52; 
+    background-color:transparent; 
+    text-transform: uppercase; 
+    margin: 0px;
+}
+
+.wrapper {
+    clear:both;
+    position: relative;
+    font-size: 20px;
+    line-height: 120%;
+    background-size:contain;
+    color: white;
+    text-align: left;
+    height:auto;
+    margin: 0px auto 0;    
+} 
+
+.mittig {
+    max-width: 729px;
+    width:100%;
+    margin: 0px auto;
+    margin-top: 150px;
+}
+
+.background1 {
+    background-color: white;
+    background-image: url(./img/pixellampe_test_50044.png);
+    background-repeat: no-repeat; 
+    padding-top: 165px;
+    background-position: 50% 70%;
+    background-size: 100%;
+    min-height: 550px;
+}
+
+.background1.gif {
+    background-image: url(./img/lamp.gif);
+}
+
+.background3 {
+    background-color: white;
+    background-image: url(); 
+    background-repeat:no-repeat;
+}
+
+.background4 {
+    background-color: white;
+    background-image: url();
+    background-repeat: no-repeat; 
+    background-position: 50% 50%;
+    background-size: contain;
+}
+
+.textfeld {
+    display: inline-block;
+    margin: 50px 50px 50px 100px;
+    padding: 50px 0px;
+    border-radius: 5px;
+    max-width:38%;
+}
+
+.nav_bottom {
+    display: block;
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 140%;
+    padding: 0px 0px 20px;
+}
+
+.nav_bottom a {
+    color: white;
+}
+
+address {
+    display: block;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0px 0px 20px 0px;
+    width:400px;
+    color: white;
+}
+
+address a {
+    color: white;
+}
+
+address a:hover, address a:focus, address a:active {
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.getintouch {    
+    background-color: #2d3e52;
+    font-size: 16px;
+    padding: 100px 50px;
+    color: white;
+}
+
+.anchor{
+    display: block;
+    height: 110px; /*same height as header*/
+    margin-top: -110px; /*same height as header*/
+    visibility: hidden;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: white;
+    background-color:rgba(0,0,0,.7); 
+    padding: 20px;
+    margin:0px auto;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 170%;
+    text-align: left;
+}
+
+h2.dunkelblau {
+    background-color: #2d3e52;/*#042e45;*/
+}
+
+.webdesign, .missionstatement {
+    background-color: #eaeaea;
+    padding: 50px 0px;
+}
+
+.discovermaps {
+    background-image:url(./img/hover_maps2.png);
+    background-size: 100%;
+    display:inline-block;
+    vertical-align: top;
+    background-color: #2d3e52;
+    background-repeat:no-repeat;
+    margin: 20px;
+    border: 2px solid #2d3e52;
+    display: inline-block;
+    max-width:400px;
+    width:100%;
+}
+
+#divdiscover h3 {
+    color: white;
+    font-weight: 300;
+    background-color: #2d3e52;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#divdiscover a {
+    color: white;
+    font-size: 16px;
+}
+
+#divdiscover a:hover {
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.hovermaps:hover {
+    opacity: 0.3;
+}
+
+.hovermaps {
+    opacity: 1;
+}
+
+.missionstatement {
+    background-color: #2d3e52;
+    padding: 150px 0px;
+    background-image: url(./img/timetochange2.png);
+    background-position: 50% 40%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.missionstatement p {
+    max-width:900px;
+    font-weight: 800;
+    color: #2d3e52;/*#e55137;*/
+    margin: 0px auto;
+    font-size: 46px;
+    text-align: center;
+}
+
+#ourmission {
+    padding-top: 50px;
+    background-color: transparent;
+    color: white;/*#2d3e52;*/ 
+    font-weight: 800;
+}
+
+#divdiscover h2 {
+
+    background-color: transparent;
+    color: #2d3e52;
+    font-weight: 800;
+}
+
+#mission {
+    background-color: #2d3e52; /*oder helles blau #e0ecf9*/
+
+}
+
+#divdiscover {
+    background-color: #eff3f4; /*oder helles blau #e0ecf9*/
+}
+
+#divdiscover {
+    padding: 100px 0px 100px 30px;
+}
+
+div#mission {
+    background-image: url(./img/mission2.png);
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    padding: 100px 0px 100px;
+    background-color: #2d3e52;
+}
+
+#mission p {
+    max-width: 500px;
+    margin: 0px auto;
+    width:100%;
+    padding: 50px;
+    text-align: left;
+    color:#2d3e52;
+    font-size: 20px;
+    background-color: white;
+    border: 5px solid #2d3e52;
+}
+
+#mission strong {
+    font-size: 20px;
+    /*color: #e55137;*/
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.anchor {
+    background-color: transparent;
+}
+
+.info, .partners {
+    display:inline-block; 
+    vertical-align:top;
+}
+
+.partners {
+    padding: 0px;
+}
+
+/*team page*/
+#team {
+    padding-top:128px;
+}
+
+.background2 {
+    background-color: #2d3e52;
+    min-height: 200px;
+}
+
+.background2 .team p{
+    color:white;
+}
+
+.background2 .team p:first-child {
+    max-width:600px;
+    font-weight: 800;
+    margin: 0px auto;
+    font-size: 46px;
+    text-align: center; 
+}
+
+.background2 .team p:last-child {
+    text-align: center;
+    font-size: 24px;
+}
+
+.background2 .team {
+    padding:150px;
+}
+
+.member {
+    display: inline-block;
+    max-width: 200px;
+    margin:20px;
+    vertical-align: top;
+    background-image:url(./img/link.png); 
+    background-repeat:no-repeat;
+}
+
+.member img {
+    display: inline-block;
+}
+
+.member ul {
+    display: block;
+    text-align:center;
+    line-height: 150%;
+}
+
+#members {
+    max-width:750px;
+    width:100%;
+    margin:0px auto;
+
+}
+
+.name {
+    font-weight: 800;
+    font-size: 20px;
+    color: #2d3e52;
+}
+
+.member a {
+    text-decoration: none;
+    color: #e55137;
+}
+
+#advisors {
+    max-width:1250px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.advisorsdiv {
+
+    background-color:#eaeaea;
+    padding: 50px;
+}
+
+.advisor {
+    display:inline-block;
+    background-color: #2d3e52;
+    vertical-align: top;
+    margin: 3px;
+    background-image:url(./img/advisorhover.png); 
+    background-repeat:no-repeat;
+    max-width: 300px;
+    min-height: 405px;
+}
+
+.advisor h3 {
+    color: white;
+    font-weight: 800;
+    text-align: left;
+    padding: 10px 20px 0px 20px;
+    text-transform: none;
+}
+
+.advisor a {
+    color: white;
+}
+
+.advisor p {
+    padding: 0px 20px 20px 20px;
+    color: white;
+}
+
+/*Partners*/
+.partners a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.partners img {
+    margin: 0px 10px 10px 0px;
+    height: 100%;
+}
+
+/*SEARCH PHP*/
+.waitforit {
+    font-size: 30px;
+    color:#2d3e52;
+}
+
+.error {
+    display:block;
+    width:200px;
+    color: #e55137;
+    margin: 20px 0px;
+}
+
+#progressbar {
+    margin-bottom:50px;
+}
+
+#progress p {
+    font-size:18px;
+}
+
+/**/
+.library {
+    font-size: 20px; 
+    margin: 0px 0px 30px;
+}
+
+sup {
+    position: relative;
+    font-size: 60%;
+    line-height: 0;
+    vertical-align: top;
+}
+
+/*TOGGLE MENU CSS*/
+.menu {
+    top: 0;
+    display:none;
+    background-color: #2d3e52;
+    left: -285px;  /* start off behind the scenes */
+    height: 100%;
+    position: fixed;
+    width: 285px;
+}
+
+.menu ul {
+    border-top: 1px solid #cacfd3;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.menu li {
+    border-bottom: 1px solid white;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 45px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+.menu a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.icon-close {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.icon-menu {
+    display:none;
+    color: #e55137;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 3px solid #e55137;
+    padding: 5px;
+    margin-top: 10px;
+    vertical-align: top;
+    text-align:left;
+}
+
+.icon-menu i {
+    margin-right: 5px;
+}
+
+/*MEDIA BREAK POINTS*/
+
+@media screen and (max-width: 960px) {
+
+    .nav_top {
+        font-size: 14px;
+    }
+
+    .description li:first-child  {
+        font-size:28px;
+    }
+
+    .description li:last-child  {
+        font-size:14px;
+    }
+
+    .mittig {
+        margin: 150px 0px 0px 0px;
+        max-width: 100%;
+    }
+
+
+    header {
+        padding: 20px 0px;
+    }
+
+    .background1 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 50px;
+        background-size: 100%;
+        min-height: 350px;
+        padding-right: 20px;
+    }
+
+    .visualize {
+        font-size: 28px;
+    }
+
+    .missionstatement {
+        padding: 100px 0px;
+        background-position: 0% 0%;
+    }
+
+    .missionstatement p {
+        max-width: 600px;
+        font-size: 28px;
+    }
+
+    #ourmission {
+        padding-top: 0px;
+    }
+
+    .discovermaps {
+        width: 40%;
+    }
+
+    #divdiscover {
+        padding: 50px 0px 50px 30px;
+    }
+
+    .advisor {
+        width: 30%;
+        background-size: 100%;
+        margin: 10px;
+    }
+
+    .background2 .team p:last-child {
+        font-size: 18px;
+    }
+
+    .background2 .team {
+        padding: 100px 0px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    #mission strong, #mission p {
+        font-size: 18px;
+    }
+
+    .background1.gif {
+        background-color: white;
+        background-size: 100%;
+        background-position: 30% 40% !important;
+        padding-bottom: 150px;
+    }   
+
+}
+
+@media screen and (max-width: 750px) {
+
+    .advisor {
+        width: 45%;
+    }
+
+    .waitforit {
+        font-size: 20px;
+    }
+
+    #progress p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .description, .background1, .searchheader .description {
+        padding-left: 20px;
+    }
+
+    .nav_top {
+        margin: 0px 0px 0px 20px !important;
+    }
+
+    .nav_top li {
+        margin-right: 15px;
+    }
+    address {
+        font-size: 16px;
+    }
+
+    #divdiscover {
+        padding-left: 0px;
+    }
+
+    #mission p {
+        max-width: 500px;
+        margin: 0px auto;
+        font-size: 16px;
+        width: 60%;
+    }
+
+    #mission strong {
+        font-size: 16px;
+    }
+
+    #divdiscover a {
+        font-size: 12px;
+    }
+
+    .getintouch {
+        padding: 50px 20px;
+    }
+
+    .mittig {
+        margin: 150px auto 0px;
+        max-width: 500px;
+    }
+
+    .advisorsdiv {
+        padding: 50px 20px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 535px) {
+    
+    #team {
+        padding-top: 70px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .icon-menu {
+        display: inline-block;
+    }
+
+    .description li:last-child {
+        font-size: 14px;
+    }
+
+    .nav_top {
+        display:none;
+    }
+
+    .description li:first-child, h2, .searchheader .description li:first-child {
+        font-size: 16px;
+
+    }
+
+    .visualize {
+        font-size: 18px;
+    }
+
+    .description {
+        display: inline-block;
+        margin-top: 10px;
+        vertical-align:top;
+    }
+
+    header {
+        padding: 0px;
+    }
+
+    .partners img {
+        height:50px;
+    }
+
+    .library {
+        font-size: 16px;
+    }
+
+    .mittig {
+        margin: 70px 0px 0px 0px;
+    }
+
+    .background1 {
+        padding-bottom: 0px;
+        background-size: 130%;
+        background-position: 10% 60%; 
+        min-height: 300px;
+    }
+
+    .missionstatement p {
+        font-size: 20px;
+    }
+
+    .missionstatement {
+        padding: 50px 0px;
+    }
+
+    div#mission {
+        padding: 50px 0px;
+        background-image: url(./img/mission2small.png);
+        background-size: contain;
+    }
+
+    .info {
+        width: 100%;
+    }
+    .advisor {
+        display: block;
+        width:100%;
+        max-width: 300px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .background2 .team p:first-child {
+        font-size: 20px;
+    }
+    .background2 .team p:last-child {
+        font-size: 16px;
+    }
+
+    address {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+
+    #progress p {
+        font-size: 14px;
+    }
+
+    .description, .searchheader .description {
+        padding: 0px 10px 10px 10px;
+    }
+    
+    .searchheader {
+    padding: 0px 0px;
+    }
+
+    #mission p {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    #mission strong {
+        font-size: 14px;
+    }
+
+    .discovermaps {
+        display: block;
+        margin: 10px auto;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    h2 {
+        padding: 20px 0px;
+    }
+
+    .background2 .team {
+        padding: 50px 0px;
+    }
+
+    .background2 {
+        min-height: 50px;
+    }
+
+    .description li:last-child {
+        display:none;
+    }
+
+    .description li:first-child {
+        padding: 5px;
+    }
+
+    #team {
+        padding-top: 100px;
+    }
+
+    .mittig {
+        margin: 50px 0px 0px 0px;
+    }
+    .background1 {
+        min-height: 150px;
+        padding-bottom: 50px;
+        padding-top: 70px;
+        background-position: 35% 50%;
+    }
+    .missionstatement {
+        padding: 70px 0px;
+    }
+
+    .background1.gif {
+        background-position: 30% 15% !important;
+        padding-bottom: 150px;
+    } 
+    .waitforit {
+        font-size: 18px;
+    }
+    
+    #team {
+        padding-top: 50px;
+    }
+}
