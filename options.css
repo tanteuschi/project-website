@@ -63,11 +63,6 @@ button {
     display: block;
 }
 
-label {
-    display: inline;
-    font-weight: normal;
-}
-
 #filter-container {
     margin-top: 15px;
 }
@@ -137,11 +132,6 @@ label {
 #input-container {
     margin-bottom: 30px;
     margin-left: 92px;
-}
-
-label {
-    display: inline-block;
-    width: 45px;
 }
 
 .caret {

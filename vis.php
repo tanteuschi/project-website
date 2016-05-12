@@ -19,8 +19,8 @@
                 $("#visualization").css("height", div_height + "px");
                 
                 var myHeadstart = new Headstart(
-                        "http://openknowledgemaps.org/" //host
-                        , "search_plos/" //path
+                        "http://localhost/" //host
+                        , "project-website/search_plos/" //path
                         , "visualization" //append to tag
                         , [{
                                 title: "dna"

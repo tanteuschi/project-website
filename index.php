@@ -64,6 +64,10 @@
         
         <?php include("discover.php") ?>
         
+        <span class="anchor" id="newsletter"></span>
+        
+        <?php include("newsletter.php") ?>
+        
         <script type="text/javascript">
 
             $(document).ready(function () {

@@ -151,6 +151,11 @@ header #logo a:hover {
     padding:5px;
 }
 
+#newsletter {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
 /*Header for Vis*/
 
 .searchheader {
@@ -396,7 +401,7 @@ h2.dunkelblau {
     font-weight: 800;
 }
 
-#divdiscover h2 {
+#divdiscover h2, #newsletter h2 {
 
     background-color: transparent;
     color: #2d3e52;
