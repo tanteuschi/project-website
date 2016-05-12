@@ -5,7 +5,7 @@
     <form name="rekkoform" method="post" action="https://mailbox.rekko.com/mailbox/subscribe/in">
         <ul class="rekko-form-style-1" style="margin: 10px auto;max-width: 600px;padding: 20px 12px 10px 20px;">
             <li style="padding: 0;display: block;list-style: none;margin: 10px 0 0 0;">
-                <p>Please enter your e-mail address below to be subscribed to our low traffic newsletter.</p>
+                <p>We are continously improving Open Knowledge Maps. Please enter your e-mail address below to receive updates on the newest developments.</p>
             </li>
             <li style="padding: 0;display: inline-block;list-style: none;margin: 10px 0 0 0;">
                 <label style="margin: 0 0 3px 0;padding: 0px;display: block;font-weight: bold;">Email Address<span class="required" style="color: red;">*</span></label>
