@@ -467,6 +467,29 @@ div#mission {
     padding: 0px;
 }
 
+.licenselink {
+color: white; 
+text-decoration: underline;
+}
+
+.licenselink:hover, .licenselink:active, .licenselink:focus {
+    text-decoration: none;
+    color:white;
+}
+
+#license {
+    margin:80px auto 0px; 
+    max-width:600px; 
+    font-size: 14px; 
+    text-align:center;
+}
+
+.licenseimg {
+    display: block; 
+    max-width:150px; 
+    margin:0px auto 20px;
+}
+
 /*team page*/
 #team {
     padding-top:128px;
@@ -1025,4 +1048,17 @@ sup {
     #team {
         padding-top: 50px;
     }
+    
+    #license {
+    margin:50px 0px 0px 0px; 
+    max-width:600px; 
+    font-size: 12px; 
+    text-align:left;
+}
+
+.licenseimg {
+    display: block; 
+    max-width:100px; 
+    margin:0px 0px 10px 0px;
+}
 }

@@ -19,7 +19,7 @@
             
             <form id="searchform" action="search.php" method="POST" class="mittig" target="_blank">
                 <h2 class="visualize">Visualize a research topic <sup>beta</sup></h2>
-                <p class="library">based on the <a href="http://plos.org" target="blank">PLOS library</a></p>
+                <p class="library">based on the <a href="http://plos.org" target="_blank">PLOS library</a></p>
                 <!--<label for="q">Search term:</label> -->
                 <!--<div class="bg-div">-->
                     <input type="text" name="q" size="89" required class="text-field" placeholder="Enter a research topic or area, e.g. heart disease">
