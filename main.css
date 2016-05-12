@@ -151,9 +151,14 @@ header #logo a:hover {
     padding:5px;
 }
 
-#newsletter {
-    margin-bottom: 40px;
+#newsletterdiv {
+    padding: 100px 0px;
     font-size: 20px;
+    color: #2d3e52;
+}
+
+#newsletterdiv p, #newsletterdiv h2 {
+    color: #2d3e52;
 }
 
 /*Header for Vis*/
@@ -401,7 +406,7 @@ h2.dunkelblau {
     font-weight: 800;
 }
 
-#divdiscover h2, #newsletter h2 {
+#divdiscover h2, #newsletterdiv h2 {
 
     background-color: transparent;
     color: #2d3e52;
@@ -737,6 +742,10 @@ sup {
     #divdiscover {
         padding: 50px 0px 50px 30px;
     }
+    
+    #newsletterdiv {
+    padding: 50px 0px;
+    }
 
     .advisor {
         width: 30%;
@@ -934,6 +943,11 @@ sup {
 }
 
 @media screen and (max-width: 470px) {
+    
+    #newsletterdiv {
+    padding: 50px 0px;
+    font-size: 14px;
+    }
 
     #progress p {
         font-size: 14px;

@@ -1,14 +1,14 @@
-<div id="newsletter">
+<div id="newsletterdiv">
     
     <h2>Newsletter</h2> 
     
     <form name="rekkoform" method="post" action="https://mailbox.rekko.com/mailbox/subscribe/in">
-        <ul class="rekko-form-style-1" style="margin: 10px auto;max-width: 600px;padding: 20px 12px 10px 20px;">
+        <ul class="rekko-form-style-1" style="margin: 10px auto;max-width: 600px;padding: 0px 12px 10px 20px;">
             <li style="padding: 0;display: block;list-style: none;margin: 10px 0 0 0;">
                 <p>We are continously improving Open Knowledge Maps. Please enter your e-mail address below to receive updates on the newest developments.</p>
             </li>
-            <li style="padding: 0;display: inline-block;list-style: none;margin: 10px 0 0 0;">
-                <label style="margin: 0 0 3px 0;padding: 0px;display: block;font-weight: bold;">Email Address<span class="required" style="color: red;">*</span></label>
+            <li style="padding: 0;display: inline-block;list-style: none;margin: 10px 0 0 0; max-width: 100%;">
+                <label style="margin: 0 0 3px 0;padding: 0px;display: block;font-weight: bold; ">Email Address<span class="required" style="color: red;">*</span></label>
                 <label class="required rekko-signupform-error email" style="display: none;margin: 0 0 3px 0;padding: 0px;font-weight: bold;color: red;">Please enter valid email</label>
                 <input type="text" name="eml" size="53" class="text-field"  /> <!-- style="width: 100%;box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;border: 1px solid #BEBEBE;padding: 7px;margin: 0px;-webkit-transition: all 0.30s ease-in-out;-moz-transition: all 0.30s ease-in-out;-ms-transition: all 0.30s ease-in-out;-o-transition: all 0.30s ease-in-out;outline: none;border-radius: 3px;" -->
             </li>
