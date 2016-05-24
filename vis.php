@@ -39,9 +39,11 @@
                             , base_unit: "views"
                             , show_timeline: false
                             , show_dropdown: false
-                            , is_force_areas: true
+                            , force_areas: true
                             , preview_type: "pdf"
                             , sort_options: ["readers", "title", "authors"]
+                            , localization: "eng_plos"
+                            , force_areas_alpha: 0.015
                             } //options
                 )
         </script>
