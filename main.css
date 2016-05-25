@@ -714,8 +714,11 @@ sup {
     background: transparent;
     margin-top: 20px;
 }
-.carousel .item img{
+.carousel .item img,
+.carousel-inner {
     margin: 0 auto; /* Align slide image horizontally center */
+    max-width: 500px;
+    height: 250px;
 }
 .bs-example {
 	padding: 100px 0px;
@@ -733,6 +736,13 @@ sup {
 .carousel-indicators {
     top: 20px;
     position: relative;
+}
+
+.carousel-num {
+    top: 20px;
+    position: relative;
+    color: white;
+    text-align: center;
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -1099,7 +1109,7 @@ sup {
         background-position: 35% 50%;
     }
     .missionstatement {
-        padding: 70px 0px;
+        padding: 50px 0px;
     }
 
     .background1.gif {
@@ -1126,4 +1136,13 @@ sup {
     max-width:100px; 
     margin:0px 0px 10px 0px;
 }
+
+.bs-example {
+    padding-bottom: 70px;
+}
+
+.carousel-inner {
+    height: 270px;
+}
+
 }
