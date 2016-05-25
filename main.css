@@ -317,7 +317,7 @@ h1 {
 h2 {
     color: white;
     background-color:rgba(0,0,0,.7); 
-    padding: 20px;
+    padding: 0px 0px 20px;
     margin:0px auto;
     font-size: 30px;
     font-weight: 300;
@@ -404,7 +404,7 @@ h2.dunkelblau {
 }
 
 #ourmission {
-    padding-top: 50px;
+    padding-top: 0px;
     background-color: transparent;
     color: white;/*#2d3e52;*/ 
     font-weight: 800;
@@ -482,16 +482,16 @@ text-decoration: underline;
 }
 
 #license {
-    margin:80px auto 0px; 
+    margin-top:50px; 
     max-width:600px; 
     font-size: 14px; 
-    text-align:center;
+    text-align:left;
 }
 
 .licenseimg {
     display: block; 
     max-width:150px; 
-    margin:0px auto 20px;
+    
 }
 
 /*team page*/
@@ -709,6 +709,50 @@ sup {
     margin-right: 5px;
 }
 
+/*TWITTER CAROUSEL*/
+.carousel{
+    background: transparent;
+    margin-top: 20px;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.bs-example {
+	padding: 100px 0px;
+        max-width:1600px;
+        background: #2d3e52;
+}
+.bs-example img {
+    width: 580px;
+}
+
+.item {
+    padding: 0px 20px;
+}
+
+.carousel-indicators {
+    top: 20px;
+    position: relative;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background:none;
+}
+
+.glyphicon-chevron-right::before {
+    content: url(./img/right.png);
+}
+
+.glyphicon-chevron-left::before {
+    content: url(./img/left.png);
+}
+
+#feedback {
+    background-color: transparent;
+    color: white;
+    font-weight: 800;
+}
+
 /*MEDIA BREAK POINTS*/
 
 @media screen and (max-width: 960px) {
@@ -822,6 +866,15 @@ sup {
     #progress p {
         font-size: 16px;
     }
+    
+    .carousel-control .glyphicon-chevron-left, 
+    .carousel-control .glyphicon-chevron-right, 
+    .carousel-control .icon-next, 
+    .carousel-control .icon-prev {
+    top: 100%;
+    margin-top: 0px;
+}
+    
 }
 
 @media screen and (max-width: 640px) {
@@ -944,6 +997,10 @@ sup {
     .missionstatement {
         padding: 50px 0px;
     }
+    
+    .bs-example{
+	padding: 50px 0px;
+    }
 
     div#mission {
         padding: 50px 0px;
@@ -1009,7 +1066,7 @@ sup {
     }
 
     h2 {
-        padding: 20px 0px;
+        padding: 0px 0px 20px;
     }
 
     .background2 .team {
@@ -1058,7 +1115,7 @@ sup {
     }
     
     #license {
-    margin:50px 0px 0px 0px; 
+    margin-top:50px; 
     max-width:600px; 
     font-size: 12px; 
     text-align:left;
