@@ -15,15 +15,15 @@
         <a style="padding-top:160px;" name="search"></a>
 
         <div class="background1">
-            
-            
+
+
             <form id="searchform" action="search.php" method="POST" class="mittig" target="_blank">
                 <h2 class="visualize">Visualize a research topic <sup>beta</sup></h2>
                 <p class="library">based on the <a href="http://plos.org" target="_blank">PLOS library</a></p>
                 <!--<label for="q">Search term:</label> -->
                 <!--<div class="bg-div">-->
-                    <input type="text" name="q" size="89" required class="text-field" placeholder="Enter a research topic or area, e.g. heart disease">
-                    <button type="submit" class="submit-btn">GO</button>
+                <input type="text" name="q" size="89" required class="text-field" placeholder="Enter a research topic or area, e.g. heart disease">
+                <button type="submit" class="submit-btn">GO</button>
                 <!--</div>-->
                 <!--<div class="filter-btn" style="display: inline-block"><a href="#" id="submit-btn" class="frontend-btn">Submit</a></div>-->
                 <div id="filter-container"></div>
@@ -56,6 +56,8 @@
             </p>
         </div>
 
+        
+
         <!--<div class="missionstatement">
             <p>Become an advisor on the project!</p>
             
@@ -63,13 +65,48 @@
 
         <span class="anchor" id="discover"></span>
         <!--<div class="background3"></div>-->
-        
+
         <?php include("discover.php") ?>
         
+        <!-- TEST TWITTER CAROUSEL-->
+        
+        <div class="bs-example">
+            <h2 id="feedback"> Feedback</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Carousel indicators -->
+                  
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="./img/slide1.png" alt="First Slide">
+                    </div>
+                    <div class="item">
+                        <img src="./img/slide2.png" alt="Second Slide">
+                    </div>
+                    <div class="item">
+                        <img src="./img/slide3.png" alt="Third Slide">
+                    </div>
+                </div>
+                
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol> 
+                <!-- Carousel controls -->
+                <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+
         <span class="anchor" id="newsletter"></span>
-        
+
         <?php include("newsletter.php") ?>
-        
+
         <script type="text/javascript">
 
             $(document).ready(function () {
@@ -88,4 +125,5 @@
             })
         </script>
 
+        
         <?php include('footer.php'); ?>
