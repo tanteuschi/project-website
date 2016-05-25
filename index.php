@@ -51,6 +51,8 @@
                 We are going to provide a large-scale system of open, interactive and interlinked knowledge maps
                 spanning all fields of research. Around these maps, we will develop a space for collective knowledge organisation 
                 and exploration, <strong>connecting researchers, students, librarians, journalists, practitioners and citizens.</strong>
+                <br><br>
+                <strong>For more information</strong>, see <a href="" style="text-decoration: underline;" target="_blank">Peter's post</a> where he describes his vision for revolutionizing discovery.
             </p>
         </div>
 
