@@ -8,8 +8,8 @@
     <body style="margin:0px; padding:0px">
         
         <?php include ("header_search.php"); ?>
-        
-        <div id="visualization" style="padding-top:70px; background-color:white;"></div>
+        <div id="empty" style="padding-top:70px;"></div>
+        <div id="visualization" style="background-color:white;"></div>
         <script>
                 
                 var height = ($(document).height() < 675)?(675):($(document).height() - 68);
@@ -44,6 +44,7 @@
                             , sort_options: ["readers", "title", "authors"]
                             , localization: "eng_plos"
                             , force_areas_alpha: 0.015
+                            , show_list: true
                             } //options
                 )
         </script>
