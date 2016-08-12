@@ -99,7 +99,7 @@
 </div> </div>
 
 <div class="background2">
-    <div class="team">
+    <div class="team" id="advisory-board">
         <p>Our Advisors</p>
         <p>are guiding the development of Open Knowledge Maps</p>
     </div>
@@ -126,6 +126,12 @@
         </div>
         
         <div class="advisor">
+            <a target="_blank" href="http://www.madgik.di.uoa.gr/content/natalia.jpg"><img class="hoverlink" src="./img/advisors/natalia.jpg" alt="Advisor OKM"></a>
+            <h3>Natalia Manola</h3>
+            <p class="advisor-desc">Project Director of OpenAIRE</p>
+        </div>
+        
+        <div class="advisor">
             <a target="_blank" href="http://homepage.univie.ac.at/katja.mayer/"><img class="hoverlink" src="./img/advisors/katja.jpg" alt="Advisor OKM"></a>
             <h3>Katja Mayer</h3>
             <p class="advisor-desc">Researcher and Lecturer at University of Vienna</p>
@@ -148,12 +154,6 @@
             <a target="_blank" href="https://twitter.com/Lambo"><img class="hoverlink" src="./img/advisors/lambert.jpg" alt="Advisor OKM"></a>
             <h3>Lambert Heller</h3>
             <p class="advisor-desc">Librarian at German National Library of S&T (TIB)</p>
-        </div>
-        
-        <div class="advisor">
-            <a target="_blank" href="https://twitter.com/mxphares"><img class="hoverlink" src="./img/advisors/margaux.jpg" alt="Advisor OKM"></a>
-            <h3>Margaux Phares</h3>
-            <p class="advisor-desc">Science Writer at MIT</p>
         </div>
         
         <div class="advisor">
