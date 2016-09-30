@@ -182,7 +182,7 @@ button {
     vertical-align: middle;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 710px) {
 
     .text-field {
         border: 5px solid #2D3E52;

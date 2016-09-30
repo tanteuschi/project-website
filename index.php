@@ -19,7 +19,12 @@
 
             <form id="searchform" action="search.php" method="POST" class="mittig" target="_blank">
                 <h2 class="visualize">Visualize a research topic <sup>beta</sup></h2>
-                <p class="library">based on the <a href="http://plos.org" target="_blank">PLOS library</a></p>
+                <p class="library">Choose a library:
+                    <label class="radio-inline"><input type="radio" name="optradio">
+                        <a href="#" data-toggle="popover" title="PubMed" data-content="Comprises more than 33 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full-text content from PubMed Central and publisher web sites.">PubMed</a></label>
+                    <label class="radio-inline"><input type="radio" name="optradio" value="" checked="checked">
+                        <a href="#" data-toggle="popover" title="Directory of Open Access Journals (DOAJ)" data-content="Provides access to over 2.3 million articles from more than 9,200 open access journals in all disciplines.">Directory of Open Access Journals</a></label>
+                </p>
                 <!--<label for="q">Search term:</label> -->
                 <!--<div class="bg-div">-->
                 <input type="text" name="q" size="89" required class="text-field" placeholder="Enter a research topic or area, e.g. heart disease">
@@ -56,21 +61,21 @@
             </p>
         </div>
 
-        
+
 
         <!--<div class="missionstatement">
             <p>Become an advisor on the project!</p>
             
         </div>-->
 
-        <span class="anchor" id="discover"></span>
+        <!--<span class="anchor" id="discover"></span>-->
         <!--<div class="background3"></div>-->
 
-        <?php include("discover.php") ?>
-        
-        
+        <?php include("howitworks.php") ?>
+
+
         <span class="anchor" id="feedback"></span>
-        
+
         <?php include("feedback.php") ?>
 
         <span class="anchor" id="newsletter"></span>
@@ -92,8 +97,16 @@
 
                 //$("#filters").toggleClass("frontend-hidden");
 
+
+                $('[data-toggle="popover"]').popover({trigger: "hover", placement: "top"});
+
+
             })
+
+
+
+
         </script>
 
-        
+
         <?php include('footer.php'); ?>

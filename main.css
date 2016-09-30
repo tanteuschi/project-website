@@ -93,11 +93,20 @@ header #logo a:hover {
     margin: 0px 0px 0px 50px !important;
 }
 
+.imglogo {
+    display: inline-block; 
+    vertical-align:top; 
+    padding: 0px 20px 20px 50px; 
+    margin-top: 10px;
+}
 
+.imglogo img {
+    width:100%;
+}
 
 .description {
     display: inline-block;
-    padding: 0px 0px 20px 50px;
+    /*padding: 0px 0px 20px 50px;*/
 }
 
 .description li:first-child {
@@ -410,7 +419,22 @@ h2.dunkelblau {
     font-weight: 800;
 }
 
-#divdiscover h2, #newsletterdiv h2 {
+.icon, .icon-description {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.icon-description {
+    width: 60%;
+    font-size: 18px;
+    padding: 0 0 0 5%;
+}
+
+.icon {
+    width: 29%;   
+}
+
+#divdiscover h2, #newsletterdiv h2, #divhow h2 {
 
     background-color: transparent;
     color: #2d3e52;
@@ -423,11 +447,8 @@ h2.dunkelblau {
 }
 
 #divdiscover {
-    background-color: #eff3f4; /*oder helles blau #e0ecf9*/
-}
-
-#divdiscover {
-    padding: 100px 0px 100px 30px;
+    background-color: #eff3f4;
+    padding: 100px 0px 100px 30px;/*oder helles blau #e0ecf9*/
 }
 
 div#mission {
@@ -439,7 +460,9 @@ div#mission {
     background-color: #2d3e52;
 }
 
-#mission p {
+
+
+#mission p, .description-headstart {
     max-width: 500px;
     margin: 0px auto;
     width:100%;
@@ -637,7 +660,42 @@ text-decoration: underline;
 /**/
 .library {
     font-size: 20px; 
-    margin: 0px 0px 30px;
+    margin: 30px 0px 10px 0px;
+    display: inline-block;
+}
+
+.radio-inline {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 100;
+    vertical-align: top;
+}
+
+input[type="radio"] {
+    margin: 8px 0 0;
+}
+
+.popover {
+    max-width:400px;
+    width:400px;
+    font-size: 14px;
+    font-family: inherit;
+    
+}
+
+.popover-content {
+    padding: 20px;
+}
+
+.popover-title {
+    background-color: #2d3e52;
+    padding: 8px 20px;
+    color: white;
+}
+
+#divhow {
+    background-color: white;
+    padding: 100px 0px 100px 30px;
 }
 
 sup {
@@ -766,6 +824,29 @@ sup {
 /*MEDIA BREAK POINTS*/
 
 /*quick fix for search header bug*/
+@media screen and (max-width: 1240px) {
+.nav_top {
+        font-size: 14px;
+    }
+    
+    .imglogo img {
+        width:80%;
+    }
+    
+    .imglogo {
+        padding: 0px 0px 20px 50px;
+        margin-top: 0px;
+    }
+
+    .description li:first-child  {
+        font-size:25px;
+        padding: 
+    }
+
+    .description li:last-child  {
+        font-size:14px;
+    }
+}
 @media screen and (max-width: 1020px) {
     .searchheader .menu {
         display: block;
@@ -778,6 +859,8 @@ sup {
     .searchheader .nav_top {
         display:none;
     }
+    
+   
 }
 
 @media screen and (max-width: 960px) {
@@ -786,17 +869,9 @@ sup {
         background-color: white;
     }
 
-    .nav_top {
-        font-size: 14px;
-    }
-
-    .description li:first-child  {
-        font-size:28px;
-    }
-
-    .description li:last-child  {
-        font-size:14px;
-    }
+    
+    
+    
 
     .mittig {
         margin: 150px 0px 0px 0px;
@@ -839,7 +914,7 @@ sup {
         width: 40%;
     }
 
-    #divdiscover {
+    #divdiscover, #divhow {
         padding: 50px 0px 50px 30px;
     }
     
@@ -865,7 +940,7 @@ sup {
         font-size: 28px;
     }
 
-    #mission strong, #mission p {
+    #mission strong, #mission p, .description-headstart {
         font-size: 18px;
     }
 
@@ -902,10 +977,31 @@ sup {
     
 }
 
+@media screen and (max-width: 700px) {
+    .radio-inline + .radio-inline {
+        display: block;
+        margin-left: 0px;
+    }
+    
+    .radio-inline {
+        display: block;
+        margin-left: 0px;
+        font-size: 16px;
+        line-height: 200%;
+    }
+    input[type="radio"] {
+    margin: 12px 0 0;
+    }
+}
+
 @media screen and (max-width: 640px) {
 
-    .description, .background1, .searchheader .description {
+    .background1, .searchheader .description {
         padding-left: 20px;
+    }
+    
+    .imglogo {
+        padding: 0px 10px 20px 20px;
     }
 
     .nav_top {
@@ -919,20 +1015,28 @@ sup {
         font-size: 16px;
     }
 
-    #divdiscover {
+    #divdiscover, #divhow {
         padding-left: 0px;
     }
 
-    #mission p {
+    #mission p, .description-headstart {
         max-width: 500px;
         margin: 0px auto;
         font-size: 16px;
         width: 60%;
     }
 
-    #mission strong {
+    #mission strong, .icon-description {
         font-size: 16px;
     }
+    
+    .icon-description, .icon {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    
 
     #divdiscover a {
         font-size: 12px;
@@ -956,6 +1060,14 @@ sup {
 
 
 @media screen and (max-width: 535px) {
+    
+    .description {
+        padding-left: 20px;
+    }
+    
+    .imglogo {
+        display:none;
+    }
     
     #team {
         padding-top: 70px;
@@ -1001,11 +1113,11 @@ sup {
     }
 
     .library {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .mittig {
-        margin: 70px 0px 0px 0px;
+        margin: 30px 0px 0px 0px;
     }
 
     .background1 {
@@ -1057,6 +1169,15 @@ sup {
 
 @media screen and (max-width: 470px) {
     
+    .radio-inline {
+        line-height: 250%;
+        font-size: 12px;
+        
+    }
+    input[type="radio"] {
+    margin: 9px 0 0;
+    }
+    
     #newsletterdiv {
     padding: 50px 0px;
     font-size: 14px;
@@ -1074,12 +1195,12 @@ sup {
     padding: 0px 0px;
     }
 
-    #mission p {
+    #mission p, .description-headstart {
         padding: 20px;
         font-size: 14px;
     }
 
-    #mission strong {
+    #mission strong, .icon-description {
         font-size: 14px;
     }
 
@@ -1121,7 +1242,8 @@ sup {
         min-height: 150px;
         padding-bottom: 50px;
         padding-top: 70px;
-        background-position: 35% 50%;
+        background-position: 120% 30%;
+        background-size: 60%;
     }
     .missionstatement {
         padding: 50px 0px;
@@ -1158,6 +1280,11 @@ sup {
 
 .carousel-inner {
     height: 270px;
+}
+
+.description-headstart {
+   width: 70%;
+    border: 0px solid #2d3e52;
 }
 
 }

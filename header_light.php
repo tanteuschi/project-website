@@ -1,9 +1,9 @@
-        <header>
+<header>
 
+    <div class="imglogo"><a href="index.php"><img src="./img/logo-okmaps.png"></a></div>
+    <ul class="description">
+        <li id="logo">Open Knowledge Maps</li>
+        <li>A visual interface to the world's scientific knowledge</li>
+    </ul>
 
-            <ul class="description">
-                <li id="logo">Open Knowledge Maps</li>
-                <li>A visual interface to the world's scientific knowledge</li>
-            </ul>
-
-        </header>
+</header>
