@@ -8,7 +8,7 @@
         
         <?php include ("header_search.php"); ?>
         <!--<div id="empty" style="padding-top:70px;"></div>-->
-        <div id="visualization" style="padding-top:75px; background-color:white;"></div>
+        <div id="visualization" style="padding-top:78px; background-color:white;"></div>
         <?php
             $credit = "";
         
