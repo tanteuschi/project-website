@@ -29,6 +29,9 @@
             }
         ?>
         <script>
+                var div_height = ($(document).height() < 750)?(750):($(document).height());
+                $("#visualization").css("height", div_height + "px")
+            
                 data_config.server_url = "http://localhost/project-website/search/server/";
         	data_config.title = <?php echo json_encode($_GET['query']) ?>;
         	data_config.files = [{
