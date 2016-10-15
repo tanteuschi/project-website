@@ -20,4 +20,4 @@
         <!--    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:300' rel='stylesheet' type='text/css'>-->
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:800,300,400' rel='stylesheet' type='text/css'>
         
-        <script src="search_plos/vis/lib/jquery-2.1.4.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>

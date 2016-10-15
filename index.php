@@ -17,12 +17,12 @@
         <div class="background1">
 
 
-            <form id="searchform" action="search.php" method="POST" class="mittig" target="_blank">
+            <form id="searchform" action="#" method="POST" class="mittig" target="_blank">
                 <h2 class="visualize">Visualize a research topic <sup>beta</sup></h2>
                 <p class="library">Choose a library:
-                    <label class="radio-inline"><input type="radio" name="optradio">
+                    <label class="radio-inline"><input type="radio" name="optradio" value="pubmed">
                         <a href="#" data-toggle="popover" title="PubMed" data-content="Comprises more than 33 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full-text content from PubMed Central and publisher web sites.">PubMed</a></label>
-                    <label class="radio-inline"><input type="radio" name="optradio" value="" checked="checked">
+                    <label class="radio-inline"><input type="radio" name="optradio" value="doaj" checked="checked">
                         <a href="#" data-toggle="popover" title="Directory of Open Access Journals (DOAJ)" data-content="Provides access to over 2.3 million articles from more than 9,200 open access journals in all disciplines.">Directory of Open Access Journals</a></label>
                 </p>
                 <!--<label for="q">Search term:</label> -->
@@ -83,29 +83,74 @@
         <?php include("newsletter.php") ?>
 
         <script type="text/javascript">
+            
+            var search_options;
 
-            $(document).ready(function () {
-                var search_options = SearchOptions;
+            var chooseOptions = function () {
+                search_options = SearchOptions;
+                
+                switch (config.service) {
+                    case "plos":
+                        config.options = options_plos;
+                        break;
 
-                search_options.init("#filter-container", options);
+                    case "pubmed":
+                        config.options = options_pubmed;
+                        break;
 
-                options.dropdowns.forEach(function (entry) {
+                    case "doaj":
+                        config.options = options_doaj;
+                        break
+
+                    default:
+                        config.options = options_doaj;
+                }
+                
+                search_options.init("#filter-container", config.options);
+
+                config.options.dropdowns.forEach(function (entry) {
                     search_options.select_multi('.dropdown_multi_' + entry.id, entry.name)
                 })
 
-                search_options.addDatePickerFromTo("#from", "#to", "any-time");
+                var valueExists = function (key, value) {
+                    var find = config.options.dropdowns.filter(
+                            function (data) {
+                                return data[key] == value
+                            }
+                    );
 
-                //$("#filters").toggleClass("frontend-hidden");
+                    return (find.length > 0) ? (true) : (false);
+                }
+                if (valueExists("id", "time_range")) {
+                    search_options.addDatePickerFromTo("#from", "#to", "any-time");
+                } else if (valueExists("id", "year_range")) {
+                    search_options.setDateRangeFromPreset("#from", "#to", "any-time-years", "1809");
+                }
+            }
 
+            var config = {};
 
+            $(document).ready(function () {
                 $('[data-toggle="popover"]').popover({trigger: "hover", placement: "top"});
 
+                config.service = $("input[name='optradio']:checked").val();
+                $("input[name='optradio']").change(function () {
+                    var radio_val = $(this).val();
+                    config.service = radio_val;
+                    $("#searchform").attr("action", "search.php?service=" + config.service);
+                    
+                    search_options.user_defined_date = false;
+                    $("#filter-container").html("");
 
+                    chooseOptions();
+                    
+                    
+                });
+               
+                chooseOptions();
+
+                $("#searchform").attr("action", "search.php?service=" + config.service);
             })
-
-
-
-
         </script>
 
 

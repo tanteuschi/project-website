@@ -1,11 +1,11 @@
 
-        <script src="search_plos/vis/lib/jquery-ui.js"></script>
-        <!--<script type="text/javascript" src="search_plos/vis/lib/jquery-1.8.1.min.js"></script>-->
-        <script type="text/javascript" src="search_plos/vis/lib/d3.v3.js"></script>
-        <link rel="stylesheet" href="search_plos/vis/lib/jquery-ui.css">
-        <script type="text/javascript" src="search_plos/vis/lib/bootstrap.js"></script>
-        <script type="text/javascript" src="search_plos/vis/lib/bootstrap-multiselect.js"></script>
-        <link rel="stylesheet" href="search_plos/vis/lib/bootstrap-multiselect.css">
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.min.js"></script>
+        <link rel="stylesheet" href="lib/jquery-ui.css">
+        <script type="text/javascript" src="lib/bootstrap.js"></script>
+        <script type="text/javascript" src="lib/bootstrap-multiselect.js"></script>
+        <link rel="stylesheet" href="lib/bootstrap-multiselect.css">
         <link rel="stylesheet" href="options.css">
         
         <script type="text/javascript" src="search_options.js"></script>
