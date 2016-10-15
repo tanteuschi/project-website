@@ -1,9 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <?php include('bootstrap_head.php'); ?>
-        <?php include('standard_head.php'); ?>
-        <?php include('headstart_head.php') ?>
+        <?php include('head_bootstrap.php'); ?>
+        <?php include('head_standard.php'); ?>
+        <?php include('head_headstart.php') ?>
 
     </head>
     <body>

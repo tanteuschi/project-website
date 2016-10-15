@@ -2,8 +2,8 @@
 <html>
     <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
             <?php 
-                include ("bootstrap_head.php"); 
-                include ("standard_head.php"); 
+                include ("head_bootstrap.php"); 
+                include ("head_standard.php"); 
             ?>
 
             <script type="text/javascript" src="search_plos/vis/lib/bootstrap.min.js"></script>

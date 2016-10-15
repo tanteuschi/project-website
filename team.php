@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-  <?php include('standard_head.php'); ?>
+  <?php include('head_standard.php'); ?>
         
     </head>
     <body>
