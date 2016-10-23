@@ -68,7 +68,7 @@
                     <p class="newsitem-p">
                         Over the summer, we have been working hard to provide you with visualizations that cover broader content sources. 
                         Now, our integration of PubMed and the Directory of Open Access Journals (DOAJ) is in its final stage and will be released by the end of October. 
-                        This means that you will soon be able to search within 35 million articles. Stay tuned!    
+                        This means that you will soon be able to search within 28 million articles. Stay tuned!    
                     </p>
 
                 </div>
