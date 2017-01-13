@@ -1,14 +1,16 @@
+<?php include 'config.php' ?>
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <?php include('head_bootstrap.php'); ?>
-        <?php include('head_standard.php'); ?>
-        <?php include('head_headstart.php') ?>
+        <base href="<?php echo $SITE_URL ?>">
+        <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
+        <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
+        <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
 
     </head>
     <body>
 
-        <?php include('header.php'); ?>
+        <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
 
 
@@ -41,7 +43,7 @@
             
             <article class="newsitem">
                 <!-- CHANGE BG IMAGE HERE-->  
-                <a href="http://openknowledgemaps.org/index.php#search" target="_blank"><img style="width:100%;" src="http://openknowledgemaps.org/img/newsletter/news2-integration.png"></a>
+                <a href="http://openknowledgemaps.org/index.php#search" target="_blank"><img style="width:100%;" src="./img/newsletter/news2-integration.png" ?>"></a>
                 <div class="newsitem-text">
                     <time datetime="2016-11-02">2 November 2016</time>
                     <h3 class="newsitem-headline">PubMed and DOAJ integration is here!</h3>
@@ -106,6 +108,6 @@
 
 
 
-        <?php include('feedback.php'); ?>
-        <?php include('newsletter.php'); ?>
-        <?php include('footer.php'); ?>
+        <?php include($COMPONENTS_PATH . 'feedback.php'); ?>
+        <?php include($COMPONENTS_PATH . 'newsletter.php'); ?>
+        <?php include($COMPONENTS_PATH . 'footer.php'); ?>
