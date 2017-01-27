@@ -25,7 +25,7 @@
                 
            <article class="newsitem">
                 <!-- CHANGE BG IMAGE HERE-->  
-                <a href="http://openknowledgemaps.org" target="_blank"><img style="width:100%;" src="./img/newsthankyou.jpg"></a>
+                <a href="//openknowledgemaps.org" target="_blank"><img style="width:100%;" src="./img/newsthankyou.jpg"></a>
                 <div class="newsitem-text">
                     <time datetime="2016-12-09">16 Dezember 2016</time>
                     <h3 class="newsitem-headline">A BIG THANK YOU to our community!</h3>
@@ -43,7 +43,7 @@
             
             <article class="newsitem">
                 <!-- CHANGE BG IMAGE HERE-->  
-                <a href="http://openknowledgemaps.org/index.php#search" target="_blank"><img style="width:100%;" src="./img/newsletter/news2-integration.png" ?>"></a>
+                <a href="//openknowledgemaps.org/index.php#search" target="_blank"><img style="width:100%;" src="./img/newsletter/news2-integration.png" ?>"></a>
                 <div class="newsitem-text">
                     <time datetime="2016-11-02">2 November 2016</time>
                     <h3 class="newsitem-headline">PubMed and DOAJ integration is here!</h3>
