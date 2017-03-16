@@ -49,7 +49,10 @@
                     </div>
                 </article>
             </div>
-            <?php include($COMPONENTS_PATH . 'twitterstream.php'); ?>
+            <?php 
+                $TIMELINE_ID = "842456314890584064";
+                include($COMPONENTS_PATH . 'twitterstream.php'); 
+            ?>
 
             <div class="newscollection">
                 <article class="newsitem">
