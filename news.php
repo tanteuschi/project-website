@@ -36,16 +36,13 @@
                         <time datetime="2016-12-09">14 March 2017</time>
                         <h3 class="newsitem-headline">Meet us at the Open Science Barcamp &amp; Conference in Berlin</h3>
                         <p class="newsitem-p">
-                            <span class="abstract">Open Knowledge Maps is coming to Berlin this March to 
-                                take part in the Open Science Barcamp &amp; Conference.</span><br><br>
-                            Make sure to visit our poster during the poster session or talk to us at the barcamp, 
-                            for which we have proposed a session.
-                            We will be happy to discuss all things OKMaps and to demonstrate the 
-                            latest and greatest features. We will also be revealing a big surprise, 
-                            so join us from March 20 to 22!
+                            <span class="abstract">Open Knowledge Maps is coming to Berlin this March with a big surprise up the sleeves.</span><br><br>
+                            Make sure to visit our poster during the poster session or talk to us at the barcamp, for which we have proposed a session. 
+                            We will be happy to discuss all things OKMaps and to demonstrate 
+                            the latest and greatest features. We will also be revealing a big surprise&nbsp;🎉 So join us from March 20 to 22! 
 
                         </p>
-                        <a class="newsitem-button" href="http://www.open-science-conference.eu/" target="_blank">about Open Science Conference</a>
+                        <a class="newsitem-button" href="http://www.open-science-conference.eu/" target="_blank">about Open Science Conference 2017</a>
                     </div>
                 </article>
             </div>
