@@ -30,9 +30,9 @@
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
 
-                    <a href="https://vimeo.com/207449056" target="_blank"><img style="width:100%;" src="./img/newsletter/baseintegration.png"></a>
+                    <a href="https://openknowledgemaps.org" target="_blank"><img style="width:100%;" src="./img/newsletter/baseintegration.png"></a>
                     <div class="newsitem-text">
-                        <time datetime="2016-12-09">22 March 2017</time>
+                        <time datetime="2017-03-22">22 March 2017</time>
                         <h3 class="newsitem-headline">New: Visualize a research topic based on 100 million scientific documents</h3>
                         <p class="newsitem-p">
                             <span class="abstract">We are happy to announce that Open Knowledge Maps is now connected to one of the largest academic search engines in the world: BASE.<br><br>
@@ -59,7 +59,7 @@
 
                     <a href="https://vimeo.com/207449056" target="_blank"><img style="width:100%;" src="./img/newsletter/openscienceconference2017.png"></a>
                     <div class="newsitem-text">
-                        <time datetime="2016-12-09">14 March 2017</time>
+                        <time datetime="2017-03-14">14 March 2017</time>
                         <h3 class="newsitem-headline">Meet us at the Open Science Barcamp &amp; Conference in Berlin</h3>
                         <p class="newsitem-p">
                             <span class="abstract">Open Knowledge Maps is coming to Berlin this March with a big surprise up the sleeves.</span><br><br>
@@ -78,7 +78,7 @@
                     <!-- CHANGE BG IMAGE HERE-->  
                     <a href="//openknowledgemaps.org" target="_blank"><img style="width:100%;" src="./img/newsletter/newsthankyou2.jpg"></a>
                     <div class="newsitem-text">
-                        <time datetime="2016-12-09">16 Dezember 2016</time>
+                        <time datetime="2016-12-16">16 Dezember 2016</time>
                         <h3 class="newsitem-headline">A BIG THANK YOU to our community!</h3>
                         <p class="newsitem-p">
                             <span class="abstract">Great things have happened following our launch of the DOAJ and PubMed 
