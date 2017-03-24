@@ -26,7 +26,7 @@
             </div>
 
             <div class="newscollection">
-                
+
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
 
@@ -36,24 +36,25 @@
                         <h3 class="newsitem-headline">New: Visualize a research topic based on 100 million scientific documents</h3>
                         <p class="newsitem-p">
                             <span class="abstract">We are happy to announce that Open Knowledge Maps is now connected to one of the largest academic search engines in the world: BASE.<br><br>
-                    
-                    For the first time you are able to visualize a research topic in any discipline. In addition, you can now search within different types of resources, including datasets and software. We would like to thank the <a href="https://www.base-search.net/about/en/about_team.php?menu=2" target="_blank">BASE team</a> for their outstanding support in making this happen!<br><br>
-                    
-                    We have also spent a lot of time improving the naming of the sub-areas to make the concepts in a field more visible - which means that this update improves our existing PubMed integration too.<br><br>
-                
-                As always, we welcome any feedback you may have! 
 
-                        </p>
-                        <a class="newsitem-button" href="http://openknowledgemaps.org/" target="_blank">Try it out now!</a>
+                                For the first time you are able to visualize a research topic in any discipline. In addition, you can now search within different types of resources, including datasets and software. We would like to thank the <a href="https://www.base-search.net/about/en/about_team.php?menu=2" target="_blank">BASE team</a> for their outstanding support in making this happen!<br><br>
+
+                                We have also spent a lot of time improving the naming of the sub-areas to make the concepts in a field more visible - which means that this update improves our existing PubMed integration too.<br><br>
+
+                                As always, we welcome any feedback you may have! 
+
+                                </p>
+                                <a class="newsitem-button" href="http://openknowledgemaps.org/" target="_blank">Try it out now!</a>
                     </div>
                 </article>
-                
-                 <?php 
-                    $TIMELINE_ID = "842456314890584064";
-                    include($COMPONENTS_PATH . 'twitterstream.php'); 
-                ?>
+            </div>
 
+            <?php
+            $TIMELINE_ID = "842456314890584064";
+            include($COMPONENTS_PATH . 'twitterstream.php');
+            ?>
 
+            <div class="newscollection">
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
 
