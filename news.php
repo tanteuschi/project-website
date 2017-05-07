@@ -30,7 +30,7 @@
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
 
-                    <a href="https://re-publica.com/en/17/session/open-knowledge-maps-visual-interface-worlds-scientific-knowledge" target="_blank"><img style="width:100%;" src="./img/newsletter/republica.png"></a>
+                    <a href="https://re-publica.com/en/17/session/open-knowledge-maps-visual-interface-worlds-scientific-knowledge" target="_blank"><img style="width:100%;" src="./img/newsletter/republica2.png"></a>
                     <div class="newsitem-text">
                         <time datetime="2017-05-07">7 May 2017</time>
                         <h3 class="newsitem-headline">Meet us at re:publica 2017</h3>
