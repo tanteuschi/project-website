@@ -30,6 +30,32 @@
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
 
+                    <a href="https://re-publica.com/en/17/session/open-knowledge-maps-visual-interface-worlds-scientific-knowledge" target="_blank"><img style="width:100%;" src="./img/newsletter/republica.png"></a>
+                    <div class="newsitem-text">
+                        <time datetime="2017-05-07">7 May 2017</time>
+                        <h3 class="newsitem-headline">Meet us at re:publica 2017</h3>
+                        <p class="newsitem-p">
+                            <span class="abstract">Open Knowledge Maps is coming to Berlin again - this time for #rp17. With more than 8,000 participants from around the world, re:publica is one of 
+                    the largest conferences on digital culture. We are looking forward to connecting to a diverse set of communities and to meeting new and old friends.
+                    
+                    
+                    If you're at the conference, don't miss our lightning talk on Monday, May 8 at 4:30pm.
+
+                                </p>
+                                <a class="newsitem-button" href="https://re-publica.com/en/17/session/open-knowledge-maps-visual-interface-worlds-scientific-knowledge" target="_blank">our session at re:publica</a>
+                    </div>
+                </article>
+            </div>
+
+            <?php
+            $TIMELINE_ID = "842456314890584064";
+            include($COMPONENTS_PATH . 'twitterstream.php');
+            ?>
+
+            <div class="newscollection">
+                <article class="newsitem">
+                    <!-- CHANGE BG IMAGE HERE-->  
+
                     <a href="https://openknowledgemaps.org" target="_blank"><img style="width:100%;" src="./img/newsletter/baseintegration.png"></a>
                     <div class="newsitem-text">
                         <time datetime="2017-03-22">22 March 2017</time>
@@ -47,14 +73,7 @@
                                 <a class="newsitem-button" href="http://openknowledgemaps.org/" target="_blank">Try it out now!</a>
                     </div>
                 </article>
-            </div>
-
-            <?php
-            $TIMELINE_ID = "842456314890584064";
-            include($COMPONENTS_PATH . 'twitterstream.php');
-            ?>
-
-            <div class="newscollection">
+                
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
 
