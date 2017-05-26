@@ -36,13 +36,13 @@
                         <h3 class="newsitem-headline">Meet us at re:publica 2017</h3>
                         <p class="newsitem-p">
                             <span class="abstract">Open Knowledge Maps is coming to Berlin again - this time for #rp17. With more than 8,000 participants from around the world, re:publica is one of 
-                    the largest conferences on digital culture. We are looking forward to connecting to a diverse set of communities and to meeting new and old friends.
-                    
-                    
-                    If you're at the conference, don't miss our lightning talk on Monday, May 8 at 4:30pm.
+                                the largest conferences on digital culture. We are looking forward to connecting to a diverse set of communities and to meeting new and old friends.
 
-                                </p>
-                                <a class="newsitem-button" href="https://re-publica.com/en/17/session/open-knowledge-maps-visual-interface-worlds-scientific-knowledge" target="_blank">our session at re:publica</a>
+
+                                If you're at the conference, don't miss our lightning talk on Monday, May 8 at 4:30pm.
+
+                        </p>
+                        <a class="newsitem-button" href="https://re-publica.com/en/17/session/open-knowledge-maps-visual-interface-worlds-scientific-knowledge" target="_blank">our session at re:publica</a>
                     </div>
                 </article>
             </div>
@@ -73,7 +73,9 @@
                                 <a class="newsitem-button" href="http://openknowledgemaps.org/" target="_blank">Try it out now!</a>
                     </div>
                 </article>
-                
+            </div>
+
+            <div class="newscollection">
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
 
@@ -110,6 +112,7 @@
                     </div>
                 </article>
             </div>
+
             <div class="newscollection">
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
@@ -127,58 +130,58 @@
                             the open annotation software Hypothes.is in our PDF preview. Try it out and let us 
                             know what you think!  
                         </p>
-
-                    </div>
-                </article>
-
-            </div>
-            <div class="newscollection">
-                <article class="newsitem">
-                    <!-- CHANGE BG IMAGE HERE-->  
-                    <a href="https://vimeo.com/186403196" target="_blank"><img style="width:100%;" src="./img/news.png"></a>
-
-
-
-
-
-                    <div class="newsitem-text">
-                        <time datetime="2016-10-23">23 October 2016</time>
-                        <h3 class="newsitem-headline">Open Knowledge Maps is coming to MozFest 2016
-                        </h3>
-                        <p class="newsitem-p">
-                            <span class="abstract">Open Knowledge Maps premiered in an exciting session at Mozilla Festival 2015 - and this year we are returning with an action-packed program including demos 
-                                and a hands-on session.</span><br><br>
-                            We will demonstrate how you can use OKMaps not only to discover the literature that you need but also to improve your understanding 
-                            of the structure of your research area. Join us in London from October 28 to 30!
-                        </p>
-                        <a class="newsitem-button" href="https://mozillafestival.org/" target="_blank">About Mozfest</a>
-
-                    </div>
-
-            </div>
-            <div class="newscollection">
-
-                </article>
-
-                <article class="newsitem">
-                    <!-- CHANGE BG IMAGE HERE-->  
-                    <a href="https://www.meetup.com/de-DE/Open-Knowledge-Oesterreich/events/234317794/" target="_blank"><img style="width:100%;" src="./img/oaw2.png"></a>
-                    <div class="newsitem-text">
-                        <time datetime="2016-10-20">20 October 2016</time>
-                        <h3 class="newsitem-headline">OK Maps Meetup at the Austrian Academy of Sciences
-                        </h3>
-                        <p class="newsitem-p">
-                            <span class="abstract">Our very first meetup in cooperation with OK-AT and &Ouml;AW BAS:IS will take place at the historic Austrian Academy of Sciences on October 24 at 18:00 CEST.</span><br><br> 
-                            Join us for an evening of hands-on action with Open Knowledge Maps &amp; a discussion of literature research strategies and the future of discovery.
-                        </p>
-
                     </div>
                 </article>
             </div>
+
+
+        <div class="newscollection">
+            <article class="newsitem">
+                <!-- CHANGE BG IMAGE HERE-->  
+                <a href="https://vimeo.com/186403196" target="_blank"><img style="width:100%;" src="./img/news.png"></a>
+
+
+
+
+
+                <div class="newsitem-text">
+                    <time datetime="2016-10-23">23 October 2016</time>
+                    <h3 class="newsitem-headline">Open Knowledge Maps is coming to MozFest 2016
+                    </h3>
+                    <p class="newsitem-p">
+                        <span class="abstract">Open Knowledge Maps premiered in an exciting session at Mozilla Festival 2015 - and this year we are returning with an action-packed program including demos 
+                            and a hands-on session.</span><br><br>
+                        We will demonstrate how you can use OKMaps not only to discover the literature that you need but also to improve your understanding 
+                        of the structure of your research area. Join us in London from October 28 to 30!
+                    </p>
+                    <a class="newsitem-button" href="https://mozillafestival.org/" target="_blank">About Mozfest</a>
+
+                </div>
+            </article>
         </div>
+            
+        <div class="newscollection">
+
+
+        <article class="newsitem">
+            <!-- CHANGE BG IMAGE HERE-->  
+            <a href="https://www.meetup.com/de-DE/Open-Knowledge-Oesterreich/events/234317794/" target="_blank"><img style="width:100%;" src="./img/oaw2.png"></a>
+            <div class="newsitem-text">
+                <time datetime="2016-10-20">20 October 2016</time>
+                <h3 class="newsitem-headline">OK Maps Meetup at the Austrian Academy of Sciences
+                </h3>
+                <p class="newsitem-p">
+                    <span class="abstract">Our very first meetup in cooperation with OK-AT and &Ouml;AW BAS:IS will take place at the historic Austrian Academy of Sciences on October 24 at 18:00 CEST.</span><br><br> 
+                    Join us for an evening of hands-on action with Open Knowledge Maps &amp; a discussion of literature research strategies and the future of discovery.
+                </p>
+
+            </div>
+        </article>
+    </div>
+</div>
 
 
 
 
-        <?php include($COMPONENTS_PATH . 'newsletter.php'); ?>
-        <?php include($COMPONENTS_PATH . 'footer.php'); ?>
+<?php include($COMPONENTS_PATH . 'newsletter.php'); ?>
+<?php include($COMPONENTS_PATH . 'footer.php'); ?>
