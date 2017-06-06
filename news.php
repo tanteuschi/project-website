@@ -21,7 +21,8 @@
                     <p>News</p>
                     <p>You can <a class="underline" href="index.php#newsletter">sign up for our Newsletter</a> 
                         to receive regular updates. You can also 
-                        <a class="underline" href="https://twitter.com/ok_maps" target="_blank">follow us on Twitter</a>.</p>
+                        <a class="underline" href="https://twitter.com/ok_maps" target="_blank">follow us on Twitter</a>.
+                    </p>
                 </div>
             </div>
 
