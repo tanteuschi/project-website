@@ -50,6 +50,7 @@
 
             <?php
             $TIMELINE_ID = "842456314890584064";
+            $FEEBDACK_TITLE = "Twitter Stream";
             include($COMPONENTS_PATH . 'twitterstream.php');
             ?>
 
