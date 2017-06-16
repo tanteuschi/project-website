@@ -50,7 +50,7 @@
             </div>
             
             <div class="newscollection">
-
+                <a name="okmaps-joins-aakc" class="anchor"></a>
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
 
