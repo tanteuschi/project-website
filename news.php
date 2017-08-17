@@ -19,7 +19,7 @@
             <div class="background2">
                 <div class="team">
                     <p>News</p>
-                    <p>You can <a class="underline" href="index.php#newsletter">sign up for our Newsletter</a> 
+                    <p>You can <a class="underline" href="index#newsletter">sign up for our Newsletter</a> 
                         to receive regular updates. You can also 
                         <a class="underline" href="https://twitter.com/ok_maps" target="_blank">follow us on Twitter</a>.
                     </p>
@@ -164,7 +164,7 @@
             <div class="newscollection">
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
-                    <a href="//openknowledgemaps.org/index.php#search" target="_blank"><img style="width:100%;" src="./img/newsletter/news2-integration.png" ?>"></a>
+                    <a href="//openknowledgemaps.org/index#search" target="_blank"><img style="width:100%;" src="./img/newsletter/news2-integration.png" ?>"></a>
                     <div class="newsitem-text">
                         <time datetime="2016-11-02">2 November 2016</time>
                         <h3 class="newsitem-headline">PubMed and DOAJ integration is here!</h3>
