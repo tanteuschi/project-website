@@ -25,8 +25,14 @@
                     </p>
                 </div>
             </div>
+            <?php
+            $TIMELINE_ID = "842456314890584064";
+            $FEEBDACK_TITLE = "Twitter Stream";
+            include($COMPONENTS_PATH . 'twitterstream.php');
+            ?>
 
             <div class="newscollection">
+                
 
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
@@ -72,11 +78,7 @@
                 </article>
             </div>
 
-            <?php
-            $TIMELINE_ID = "842456314890584064";
-            $FEEBDACK_TITLE = "Twitter Stream";
-            include($COMPONENTS_PATH . 'twitterstream.php');
-            ?>
+            
             
             <div class="newscollection">
 
