@@ -50,4 +50,13 @@ $(document).ready(function () {
             }
         }
     });
+    
+    var current_page_class = '.navigationlink-' + $("body").attr("class");
+    $(current_page_class).on("click", function() {
+        $(current_page_class).addClass('currently_active');
+    })
+    
+    
+    $(current_page_class).addClass('currently_active');
+       
 })

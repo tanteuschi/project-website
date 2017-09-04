@@ -1222,6 +1222,10 @@ sup {
     border-radius: 5px;
 }
 
+a.currently_active {
+    border-bottom: 2px solid #2d3e52
+}
+
 .searchheader .icon-menu {
     margin-left: 0px;
     margin-right: 20px;

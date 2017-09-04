@@ -30,12 +30,12 @@
 </ul>
 
 <ul class="nav_top">
-    <li><a href="index#search">Search</a></li>
-    <li><a href="about">About</a></li>
-    <li><a href="team#team">Team</a></li>
-    <li><a href="news">News</a></li>
-    <li><a href="faq">FAQ</a></li>
-    <li><a href="getintouch">Get in touch</a></li>
+    <li><a href="index#search" class="navigationlink-home">Search</a></li>
+    <li><a href="about" class="navigationlink-about-page">About</a></li>
+    <li><a href="team#team" class="navigationlink-team-page">Team</a></li>
+    <li><a href="news" class="navigationlink-updates">News</a></li>
+    <li><a href="faq" class="navigationlink-faq-page faqx">FAQ</a></li>
+    <li><a href="getintouch" class="navigationlink-faq-page getintouchpage">Get in touch</a></li>
     <li><a class="newsletter" href="index#supportus"><i class="fa fa-heart" aria-hidden="true"></i> 
             Support us</a></li>
 </ul>
