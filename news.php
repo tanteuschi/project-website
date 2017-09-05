@@ -15,7 +15,7 @@
 
 
         <div id="news">  
-
+<div class="headerimage"><img src="./img/newsbg-mobil.png"></div>
             <div class="background2">
                 <div class="team">
                     <p>News</p>
