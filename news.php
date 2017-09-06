@@ -25,6 +25,47 @@
                     </p>
                 </div>
             </div>
+
+<div class="newscollection">
+
+
+                <article class="newsitem">
+                    <!-- CHANGE BG IMAGE HERE-->  
+
+                    <a href="https://openknowledgemaps.org/#search" target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/sharing.png"></a>
+                    <div class="newsitem-text">
+                        <time datetime="2017-05-07">06 September 2017</time>
+                        <h3 class="newsitem-headline">#1 Share your favorite maps with the world</h3>
+                        <p class="newsitem-p">
+                            A major update to Open Knowledge Maps makes it much easier for you to share your favorite maps with others and jointly discover amazing research. It's simple: click on the share buttons next to each map to post it to a social media service of your choice - including a snapshot of the actual map.
+          <br>
+          <br>
+          In addition, we've improved the quality of our maps and the usability of our website. So we invite you to visit the all-new Open Knowledge Maps to re-search old favorites and investigate new topics!
+
+                        </p>
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/#search" target="_blank">create and share</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="newscollection">
+                <a name="okmaps-joins-aakc" class="anchor"></a>
+                <article class="newsitem">
+                    <!-- CHANGE BG IMAGE HERE-->  
+
+                    <div class="newsitem-text">
+                        <time datetime="2017-05-07">06 September 2017</time>
+                        <h3 class="newsitem-headline">#2 Open Knowledge Maps signs Memorandum of Understanding with Citizen Science Network Austria</h3>
+                        <p class="newsitem-p">
+                             We are honored to partner with Citizen Science Network Austria to 
+                             support citizen science as an inclusive approach to knowledge creation. 
+                             This emphasizes our strong commitment to improving visibility of scientific 
+                             findings for science and society alike.
+                        </p>
+                        <a class="newsitem-button" href="http://citizen-science.at" target="_blank">about Citizen Science Network Austria</a>
+                    </div>
+                </article>
+            </div>
             <?php
             $TIMELINE_ID = "842456314890584064";
             $FEEBDACK_TITLE = "Twitter Stream";
