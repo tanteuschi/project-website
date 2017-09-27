@@ -32,7 +32,7 @@
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
 
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMwTfyoIUCHHtYeyD5k-yfi3Hb_Uaza3R4pY3XvnKMwl8lBg/viewform" 
+                    <a href="https://www.openminds.at/" 
                        target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/openmindsaward.png"></a>
                     <div class="newsitem-text">
                         <time datetime="2017-09-27">27 September 2017</time>
