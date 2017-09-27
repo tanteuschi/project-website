@@ -44,7 +44,7 @@
                             The jury of <a href="https://www.linuxwochen.at" href="_blank" style="text-decoration: underline">Linuxwochen Austria</a> acknowledged Open Knowledge Maps especially for 
                             enabling users to see the big picture of scientific findings.
                             <br><br>Peter Kraker, founder and chairman of Open Knowledge Maps, accepted the award 
-                            on behalf of the project on Tuesday evening. In his acceptance speech, Peter emphasized the 
+                            on behalf of the project team on Tuesday evening. In his acceptance speech, Peter emphasized the 
                             collaborative and voluntary nature of the project and thanked the Open Knowledge Maps community - our team, 
                            advisors, partners, and users  - for their incredible effort and support.
                             
