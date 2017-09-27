@@ -35,11 +35,20 @@
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMwTfyoIUCHHtYeyD5k-yfi3Hb_Uaza3R4pY3XvnKMwl8lBg/viewform" 
                        target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/openmindsaward.png"></a>
                     <div class="newsitem-text">
-                        <time datetime="2017-09-18">27 September 2017</time>
-                        <h3 class="newsitem-headline">Open Minds Award</h3>
+                        <time datetime="2017-09-27">27 September 2017</time>
+                        <h3 class="newsitem-headline">Open Knowledge Maps wins Open Minds Award</h3>
                         <p class="newsitem-p">
-                            Open Knowledge Maps wins the Open Minds Award, the Austrian Open Source Award. 
-                            A big shout out to all our supporters - THANK YOU!
+                            We are honored to announce that Open Knowledge Maps has won the Open Minds Award, 
+                            the Austrian Open Source Award, in the category Open Software 🎉
+                            <br><br>The award considers open source projects, which enable widespread participation and collaboration.
+                            The jury of <a href="https://www.linuxwochen.at" href="_blank" style="text-decoration: underline">Linuxwochen Austria</a> acknowledged Open Knowledge Maps especially for 
+                            enabling users to see the big picture of scientific findings.
+                            <br><br>Peter Kraker, founder and chairman of Open Knowledge Maps, accepted the award 
+                            on behalf of the project on Tuesday evening. In his acceptance speech, Peter emphasized the 
+                            collaborative and voluntary nature of the project and thanked the Open Knowledge Maps community - our team, 
+                           advisors, partners, and users  - for their incredible effort and support.
+                            
+                            <br><br>A big shout out to all our supporters - THANK YOU!
                         </p>
                         <a class="newsitem-button" href="https://www.openminds.at/" target="_blank">about Open Minds Award</a>
                     </div>
