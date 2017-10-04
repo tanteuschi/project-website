@@ -65,7 +65,7 @@
                        target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/survey.png"></a>
                     <div class="newsitem-text">
                         <time datetime="2017-09-18">18 September 2017</time>
-                        <h3 class="newsitem-headline">#1 Your feedback on Open Knowledge Maps</h3>
+                        <h3 class="newsitem-headline">Your feedback on Open Knowledge Maps</h3>
                         <p class="newsitem-p">
                             We want to improve your experience with Open Knowledge Maps - and for that, we need your feedback! We invite you to fill in a short survey (5-9 mins), which we have created in collaboration with FH JOANNEUM - University of Applied Sciences in Graz, Austria.
                             <br>
@@ -85,7 +85,7 @@
 
                     <div class="newsitem-text">
                         <time datetime="2017-09-18">18 September 2017</time>
-                        <h3 class="newsitem-headline">#2 Nomination for the Open Minds Award</h3>
+                        <h3 class="newsitem-headline">Nomination for the Open Minds Award</h3>
                         <p class="newsitem-p">
                             We are honored to be nominated for the Open Minds Award, the Austrian Open Source Award. 
                             The award considers open source projects, which enable widespread participation and collaboration. Thanks to you, the Open Knowledge Maps team &amp; community, for your continued support!
@@ -111,7 +111,7 @@
                     <a href="https://openknowledgemaps.org/#search" target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/sharing.png"></a>
                     <div class="newsitem-text">
                         <time datetime="2017-09-06">06 September 2017</time>
-                        <h3 class="newsitem-headline">#1 Share your favorite maps with the world</h3>
+                        <h3 class="newsitem-headline">Share your favorite maps with the world</h3>
                         <p class="newsitem-p">
                             A major update to Open Knowledge Maps makes it much easier for you to share your favorite maps with others and jointly discover amazing research. It's simple: click on the share buttons next to each map to post it to a social media service of your choice - including a snapshot of the actual map.
                             <br>
@@ -131,7 +131,7 @@
 
                     <div class="newsitem-text">
                         <time datetime="2017-09-06">06 September 2017</time>
-                        <h3 class="newsitem-headline">#2 Open Knowledge Maps signs Memorandum of Understanding with Citizen Science Network Austria</h3>
+                        <h3 class="newsitem-headline">Open Knowledge Maps signs Memorandum of Understanding with Citizen Science Network Austria</h3>
                         <p class="newsitem-p">
                             We are honored to partner with Citizen Science Network Austria to 
                             support citizen science as an inclusive approach to knowledge creation. 
@@ -152,7 +152,7 @@
                     <a href="https://openknowledgemaps.org/#search" target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/cool.png"></a>
                     <div class="newsitem-text">
                         <time datetime="2017-06-12">12 June 2017</time>
-                        <h3 class="newsitem-headline">#1 It all started at #mozsprint...</h3>
+                        <h3 class="newsitem-headline">It all started at #mozsprint...</h3>
                         <p class="newsitem-p">
                             During Mozilla's Global Sprint on June 1st & 2nd, 
                             the Open Knowledge Maps team got together to improve 
@@ -174,7 +174,7 @@
 
                     <div class="newsitem-text">
                         <time datetime="2017-06-12">12 June 2017</time>
-                        <h3 class="newsitem-headline">#2 Open Knowledge Maps joins Annotating All Knowledge Coalition</h3>
+                        <h3 class="newsitem-headline">Open Knowledge Maps joins Annotating All Knowledge Coalition</h3>
                         <p class="newsitem-p">
                             We are honored to join Annotating All Knowledge, 
                             a coalition of more than 60 organisations aiming to 
