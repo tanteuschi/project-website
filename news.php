@@ -37,11 +37,11 @@
                         <time datetime="2017-10-23">23 October 2017</time>
                         <h3 class="newsitem-headline">Meet us at FORCE2017 &amp; other #OAWeek events</h3>
                         <p class="newsitem-p">
-                            In celebration of the <a href="http://openaccessweek.org/" target="_blank">International Open Access Week</a>, OKMaps team members will participate in various events centered around open science and open knowledge - and we would love to meet you there!
+                            In celebration of the <a href="http://openaccessweek.org/" class="underline" target="_blank">International Open Access Week</a>, OKMaps team members will participate in various events centered around open science and open knowledge - and we would love to meet you there!
                             <br>
-                            <br>Join us at <a href="https://www.force11.org/event/force2017-berlin-oct-25-27" target="_blank">FORCE2017</a>, where we will host a demo on Thursday and a scientific scavenger hunt on Friday. Or catch up with our workshop at <a href="https://eca.usal.es/" target="_blank">Ecosystems of Open Knowledge (ECA 2017)</a>, the largest library-related event in Spain, at University of Salamanca.
+                            <br>Join us at <a href="https://www.force11.org/event/force2017-berlin-oct-25-27" class="underline" target="_blank">FORCE2017</a>, where we will host a demo on Thursday and a scientific scavenger hunt on Friday. Or catch up with our workshop at <a href="https://eca.usal.es/" class="underline" target="_blank">Ecosystems of Open Knowledge (ECA 2017)</a>, the largest library-related event in Spain, at University of Salamanca.
                             <br>
-                            <br>In addition, you will find us at <a href="https://www.wikidata.org/wiki/Wikidata:WikidataCon_2017" target="_blank">WikidataCon</a> and <a href="https://mozillafestival.org/" target="_blank">MozFest</a>. We are looking forward to discussing open science and discovery of research findings with you.
+                            <br>In addition, you will find us at <a href="https://www.wikidata.org/wiki/Wikidata:WikidataCon_2017" class="underline" target="_blank">WikidataCon</a> and <a href="https://mozillafestival.org/" class="underline" target="_blank">MozFest</a>. We are looking forward to discussing open science and discovery of research findings with you.
                         </p>
                         <a class="newsitem-button" href="https://www.oaweek.org/" target="_blank">about Open Access Week</a>
                     </div>
