@@ -25,7 +25,55 @@
                 </div>
             </div>
 
+            <div class="newscollection">
+
+
+                <article class="newsitem">
+                    <a name="oaweek2017" class="anchor"></a>
+
+                    <a href="https://www.oaweek.org/" 
+                       target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/oaweek.png"></a>
+                    <div class="newsitem-text">
+                        <time datetime="2017-10-23">23 October 2017</time>
+                        <h3 class="newsitem-headline">Meet us at FORCE2017 &amp; other #OAWeek events</h3>
+                        <p class="newsitem-p">
+                            In celebration of the <a href="http://openaccessweek.org/" target="_blank">International Open Access Week</a>, OKMaps team members will participate in various events centered around open science and open knowledge - and we would love to meet you there!
+                            <br>
+                            <br>Join us at <a href="https://www.force11.org/event/force2017-berlin-oct-25-27" target="_blank">FORCE2017</a>, where we will host a demo on Thursday and a scientific scavenger hunt on Friday. Or catch up with our workshop at <a href="https://eca.usal.es/" target="_blank">Ecosystems of Open Knowledge (ECA 2017)</a>, the largest library-related event in Spain, at University of Salamanca.
+                            <br>
+                            <br>In addition, you will find us at <a href="https://www.wikidata.org/wiki/Wikidata:WikidataCon_2017" target="_blank">WikidataCon</a> and <a href="https://mozillafestival.org/" target="_blank">MozFest</a>. We are looking forward to discussing open science and discovery of research findings with you.
+                        </p>
+                        <a class="newsitem-button" href="https://www.oaweek.org/" target="_blank">about Open Access Week</a>
+                    </div>
+                </article>
+            </div>
             
+            <div class="newscollection">
+
+
+                <article class="newsitem">
+                    <!-- CHANGE BG IMAGE HERE-->
+                    <div class="newsitem-text">
+                        <time datetime="2017-10-23">23 October 2017</time>
+                        <h3 class="newsitem-headline">Thank you for support!</h3>
+                        <p class="newsitem-p">
+                            In the past months, many of you have supported us in a wide variety of ways: by promoting Open Knowledge Maps in your communities, by posting maps on social media, or by providing feedback and suggestions in our survey (107 responses!). As a result, Open Knowledge Maps is growing and reaching more and more people around the world. We were also honored to receive the Open Minds Award by the Austrian open source community.
+                            <br>
+                            <br>
+                            Thank you so much for your outstanding support and keep spreading the word of open discovery!
+                        </p>
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/index#supportus" target="_blank">How to support OKMaps</a>
+                    </div>
+                </article>
+            </div>
+
+            <?php
+            $TIMELINE_ID = "842456314890584064";
+            $FEEBDACK_TITLE = "Twitter Stream";
+            include($COMPONENTS_PATH . 'twitterstream.php');
+            ?>
+
+
             <div class="newscollection">
 
 
@@ -46,15 +94,15 @@
                             <br><br>Peter Kraker, founder and chairman of Open Knowledge Maps, accepted the award 
                             on behalf of the project team on Tuesday evening. In his acceptance speech, Peter emphasized the 
                             collaborative and voluntary nature of the project and thanked the international Open Knowledge Maps community - our team, 
-                           advisors, partners, and users  - for their incredible effort and support.
-                            
+                            advisors, partners, and users  - for their incredible effort and support.
+
                             <br><br>A big shout out to all our supporters - THANK YOU!
                         </p>
                         <a class="newsitem-button" href="https://www.openminds.at/" target="_blank">about Open Minds Award</a>
                     </div>
                 </article>
             </div>
-            
+
             <div class="newscollection">
 
 
@@ -94,13 +142,6 @@
                     </div>
                 </article>
             </div>
-
-
-            <?php
-            $TIMELINE_ID = "842456314890584064";
-            $FEEBDACK_TITLE = "Twitter Stream";
-            include($COMPONENTS_PATH . 'twitterstream.php');
-            ?>
 
             <div class="newscollection">
 
