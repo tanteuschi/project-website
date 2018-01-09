@@ -78,18 +78,6 @@
             include($COMPONENTS_PATH . 'twitterstream.php');
             ?>
 
-            <div id="news">  
-                <div class="headerimage"><img src="./img/newsbg-mobil.png"></div>
-                <div class="background2">
-                    <div class="team">
-                        <p>News</p>
-                        <p>You can <a class="underline" href="#newslettersignup">sign up for our Newsletter</a> 
-                            to receive regular updates. You can also 
-                            <a class="underline" href="https://twitter.com/ok_maps" target="_blank">follow us on Twitter</a> and <a class="underline" href="https://facebook.com/OKMaps" target="_blank">Facebook</a>.
-                        </p>
-                    </div>
-                </div>
-
                 <div class="newscollection">
 
 
