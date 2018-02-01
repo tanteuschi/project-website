@@ -41,7 +41,7 @@
                             <br>
                             <br>But did you know that you can easily keep yourself updated using Open Knowledge Maps? Just select the option “Most recent” in the “Refine your search” section. Our award-winning software then creates a knowledge map based on the 100 most recent documents for your search term. That way you get an instant overview of the hottest topics in your field.
                             <br>
-                            <br><a href="https://openknowledgemaps.org" target="_blank"><img src="http://openknowledgemaps.org/img/newsletter/mostrecent.png" alt="Screen shot of how to select the most recent publications"></a>
+                            <br><a href="https://openknowledgemaps.org" target="_blank"><img src="https://openknowledgemaps.org/img/newsletter/mostrecent.png" alt="Screen shot of how to select the most recent publications"></a>
                             <br>
                             <br>Let Open Knowledge Maps help you get a head start on your literature research in 2018.
                         </p>
@@ -124,6 +124,7 @@
 
 
                     <article class="newsitem">
+						<a name="openminds-award" class="anchor"></a>
                         <!-- CHANGE BG IMAGE HERE-->  
 
                         <a href="https://www.openminds.at/" 
