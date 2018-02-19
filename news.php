@@ -24,8 +24,43 @@
                     </p>
                 </div>
             </div>
-
+            
             <div class="newscollection">
+
+
+                <article class="newsitem">
+                    <a name="know-center-joins-okmaps-as-team-member" class="anchor"></a>
+
+                    <a href="https://www.openknowledgemaps.org/" 
+                       target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/knowcenter.jpg"></a>
+                    <div class="newsitem-text">
+                        <time datetime="2017-02-20">20 February 2018</time>
+                        <h3 class="newsitem-headline">Know-Center joins the Open Knowledge Maps core team</h3>
+                        <p class="newsitem-p">
+                            We are happy to announce that <a href="https://know-center.at/" class="underline" target="_blank">Know-Center</a> has joined the <a href="https://openknowledgemaps.org/team#team/" class="underline" target="_blank">Open Knowledge Maps core team</a> as our very first organizational member. Know-Center will support Open Knowledge Maps with a considerable contribution allowing us to cover our operational costs and grow as an independent organization. This is the next step in what has been a longstanding bond between the two organizations. Peter Kraker, founder and chairman of Open Knowledge Maps, laid the foundations for the organization whilst at Know-Center, and Know-Center has been a strong partner and advocate ever since.
+                            <br>
+                            <br>Stefanie Lindstaedt, CEO of Know-Center, says: 
+                                <blockquote>"At Know-Center, knowledge transfer is a key part of our mission. Open Knowledge Maps is a revolutionary tool in this regard, a window into science. Through this window, researchers, practitioners and citizens can explore the wealth of scientific knowledge in a much better way than before. We are excited to be a part of this unique open science endeavor."</blockquote>
+                        </p>
+                        <p class="newsitem-p">
+                        Peter Kraker, founder and chairman of Open Knowledge Maps, adds: 
+                                <blockquote>"If recent market entrances are any indication, discovery will be one of the key areas of the digital research infrastructure. Having Know-Center on board goes a long way in making Open Knowledge Maps a sustainable building block of the open science ecosystem. We are thrilled to take this partnership to the next level."</blockquote>
+                        </p>
+                        <p class="newsitem-p">
+                            In our joint effort to become ever more open, we have also agreed to switch the license of the open source knowledge mapping framework <a href="https://github.com/OpenKnowledgeMaps/Headstart" class="underline" target="_blank">Head Start</a> from LGPL to MIT.</p>
+                        </p>
+                        <a class="newsitem-button" href="https://know-center.at/" target="_blank">about Know-Center</a>
+                    </div>
+                </article>
+            </div>
+
+            <?php
+            $TIMELINE_ID = "842456314890584064";
+            $FEEBDACK_TITLE = "Twitter Stream";
+            include($COMPONENTS_PATH . 'twitterstream.php');
+            ?>
+            
+             <div class="newscollection">
 
 
                 <article class="newsitem">
@@ -71,12 +106,6 @@
                     </div>
                 </article>
             </div>
-
-            <?php
-            $TIMELINE_ID = "842456314890584064";
-            $FEEBDACK_TITLE = "Twitter Stream";
-            include($COMPONENTS_PATH . 'twitterstream.php');
-            ?>
 
                 <div class="newscollection">
 
@@ -125,7 +154,6 @@
 
                     <article class="newsitem">
 						<a name="openminds-award" class="anchor"></a>
-                        <!-- CHANGE BG IMAGE HERE-->  
 
                         <a href="https://www.openminds.at/" 
                            target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/openmindsaward.png"></a>
