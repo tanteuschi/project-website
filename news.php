@@ -31,8 +31,7 @@
                 <article class="newsitem">
                     <a name="know-center-joins-okmaps-as-team-member" class="anchor"></a>
 
-                    <a href="https://www.openknowledgemaps.org/" 
-                       target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/knowcenter.jpg"></a>
+                    <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/knowcenter.jpg">
                     <div class="newsitem-text">
                         <time datetime="2017-02-20">20 February 2018</time>
                         <h3 class="newsitem-headline">Know-Center joins the Open Knowledge Maps core team</h3>
